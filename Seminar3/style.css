@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+}
+
+.logo {
+    margin-top: 20px;
+}
+
+.logo1 {
+    padding-right: 14px;
+}
+
+
+menu {
+    padding-top: 20px;
+}
+
+.navigation {
+    padding-right: 20px;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.navigation1 {
+    padding-right: 20px;
+    color: #F25822;
+}
+
+
+
+.section1 {
+    margin-top: 89px;
+    padding-right: 375px;
+    padding-left: 375px;
+}
+
+.content1 {
+    padding-right: 41px;
+}
+
+.content1 h1 {
+    padding-bottom: 17px;
+    font-size: 60px;
+    line-height: 70px;
+    color: #000000;
+}
+
+
+.content1 p {
+    padding-bottom: 16px;
+    font-size: 20px;
+    line-height: 23px;
+    color: #888888;
+}
+
+.button1 {
+    background: #F25822;
+    color: aliceblue;
+    border-radius: 50px;
+    border: 0;
+    padding-left: 35px;
+    padding-top: 15px;
+    padding-bottom: 16px;
+    padding-right: 36px;
+    margin-right: 72px;
+    box-shadow: #F25822;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+
+.button2 {
+    background: none;
+    border: 0;
+    font-size: 15px;
+    line-height: 18px;
+    color: #AAAAAA;
+}
+
+.section2 {
+    padding-top: 97px;
+    padding-bottom: 96px;
+    padding-left: 345px;
+    padding-right: 300px;
+}
+
+.logo_footer {
+    width: 160px;
+    height: 50px;
+}
