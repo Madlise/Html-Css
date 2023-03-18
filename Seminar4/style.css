@@ -1,0 +1,147 @@
+@font-face {
+    font-family: 'Gilroy-Bold';
+    src: url(./Font/Gilroy-Bold.woff2);
+}
+
+@font-face {
+    font-family: 'Gilroy-Medium';
+    src: url(./Font/Gilroy-Medium.woff2);
+}
+
+@font-face {
+    font-family: 'Gilroy-Semibold';
+    src: url(./Font/Gilroy-Semibold.woff2);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+
+body {
+    scroll-behavior: smooth;
+    text-rendering: optimizeSpeed;
+    background: #FFFFFF;
+    ;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+
+
+
+.logo {
+    width: 137px;
+    height: 40px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+
+.navigation {
+    font-family: 'Gilroy-Semibold';
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    gap: 30px;
+}
+
+.navigation1 {
+    font-family: 'Gilroy-Semibold';
+    padding-right: 20px;
+    color: #F25822;
+}
+
+.navigation2 {
+    width: 70px;
+}
+
+
+
+.content1 {
+    margin-top: 89px;
+    display: flex;
+    gap: 39px;
+}
+
+.content1 h1 {
+    font-family: 'Gilroy-Bold';
+    padding-bottom: 17px;
+    font-size: 60px;
+    line-height: 70px;
+    color: #000000;
+}
+
+
+.content1 p {
+    font-family: 'Gilroy-Medium';
+    padding-bottom: 16px;
+    font-size: 20px;
+    line-height: 23px;
+    color: #888888;
+}
+
+
+
+.button1 {
+    font-family: 'Gilroy-Bold';
+    background: #F25822;
+    color: aliceblue;
+    border-radius: 50px;
+    border: 0;
+    padding-left: 35px;
+    padding-top: 15px;
+    padding-bottom: 16px;
+    padding-right: 36px;
+    margin-right: 72px;
+    box-shadow: #F25822;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.button2 {
+    font-family: 'Gilroy-Bold';
+    background: none;
+    border: 0;
+    font-size: 15px;
+    line-height: 18px;
+    color: #AAAAAA;
+    cursor: pointer;
+}
+
+
+.section2 {
+    padding-top: 97px;
+    padding-bottom: 96px;
+}
+
+.logo_footer {
+    width: 160px;
+    height: 50px;
+}
+
+.logos {
+    display: flex;
+    gap: 48px;
+}
