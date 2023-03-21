@@ -1,0 +1,280 @@
+@font-face {
+    font-family: 'Lato-Black';
+    src: url(./font/Lato-Black.ttf);
+}
+
+@font-face {
+    font-family: 'Lato-Bold';
+    src: url(./font/Lato-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Lato-Light';
+    src: url(./font/Lato-Light.ttf);
+}
+
+@font-face {
+    font-family: 'Lato-Regular';
+    src: url(./font/Lato-Regular.ttf);
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    width: 100%;
+    scroll-behavior: smooth;
+    text-rendering: optimizeSpeed;
+    background: #222222;
+}
+
+
+
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 18px;
+    padding-bottom: 20px;
+    background: #222222;
+}
+
+.conteiner {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+
+img {
+    max-width: 100%;
+}
+
+.head_logo {
+    display: block;
+    width: 111px;
+    height: 38px;
+    margin-left: 0px;
+    margin-right: 0px
+}
+
+.nav {
+    width: 159px;
+    height: 29px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav_style1 {
+    width: 32px;
+    height: 23px;
+}
+
+.nav_style2 {
+    width: 29px;
+    height: 29px;
+}
+
+.nav_style3 {
+    width: 32px;
+    height: 29px;
+}
+
+.section1 {
+    background: #F1E4E6;
+}
+
+.top_content {
+    display: flex;
+    align-items: center;
+}
+
+.top_picture {
+    width: 50vw;
+}
+
+.slogan {
+    display: flex;
+    align-items: center;
+    height: 93px;
+    width: 405px;
+}
+
+.rectangle {
+    margin-right: 16px;
+}
+
+.slogan p {
+    font-family: 'Lato-Black';
+    width: 377px;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 58px;
+    color: #222222;
+}
+
+.text_style {
+    font-family: 'Lato-Bold';
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+
+
+
+.section2 {
+    background: #ffffff;
+    padding-top: 65px;
+}
+
+.content_list {
+    padding-bottom: 96px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 260px 180px;
+    grid-row: 4;
+    grid-column: 2;
+    gap: 30px;
+}
+
+.cart_big {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    display: flex;
+}
+
+.pictures_bottom {
+    position: absolute;
+}
+
+.cart p {
+    font-family: 'Lato-Regular';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    position: relative;
+    top: 41%;
+    left: 43%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section3 {
+    background: #ffffff;
+}
+
+.text_content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.text_content h1 {
+    font-family: 'Lato-Regular';
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    color: #222222;
+    padding-bottom: 6px;
+}
+
+.text_content p {
+    font-family: 'Lato-Regular';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #9F9F9F;
+    padding-bottom: 48px;
+}
+
+.cart_set {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 30px;
+
+}
+
+.block {
+    background: #F8F8F8;
+}
+
+.block h1 {
+    font-family: 'Lato-Bold';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #000000;
+    padding-bottom: 16px;
+    padding-top: 24px;
+    padding-left: 16px;
+}
+
+.text_description {
+    font-family: 'Lato-Light';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #5D5D5D;
+    order: 1;
+    padding-bottom: 16px;
+    padding-left: 16px;
+}
+
+.price {
+    font-family: 'Lato-Light';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #F16D7F;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    padding-bottom: 20px;
+    padding-left: 16px;
+}
+
+.block_button {
+    padding-top: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button {
+    margin-bottom: 60px;
+    border-color: #FF6A6A;
+    background: none;
+    width: 212px;
+    height: 48px;
+    font-family: 'Lato-Light';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #F26376;
+}
